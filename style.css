@@ -1,0 +1,46 @@
+.box {
+    width: auto;
+    height: 50px;
+    background-color: #ffa400;
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.title--hello {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+    object-fit: cover;
+}
+
+.link:hover {
+    color: red;
+    background-color: black;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px 50px;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    margin-left: 220px;
+}
+
+.link--rounded {
+    border-radius: 5px;
+}
+
+.link--round {
+    border-radius: 20px;
+}
