@@ -1,31 +1,29 @@
-.box {
-    width: auto;
-    height: 50px;
-    background-color: #ffa400;
-    border: 2px solid yellow;
-    padding: 10px;
-    margin: 15px auto;
-    border-radius: 10px;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 .title--hello {
-    font-size: 50px;
-    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
     text-align: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to left, #ff4895, #ffd96a);
 }
 
 .image {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    display: block;
-    margin: 15px auto;
-    object-fit: cover;
+    margin: 30px auto;
+    background-size: cover;
+    background-image: url(./img/2.png);
 }
 
-.link:hover {
-    color: red;
-    background-color: black;
+.link--red:hover {
+    background-image: linear-gradient(to left, #ff6af3, #fe3f3f);
 }
 
 .link {
@@ -33,14 +31,39 @@
     padding: 10px 50px;
     text-align: center;
     color: white;
-    background-color: purple;
-    margin-left: 220px;
-}
-
-.link--rounded {
+    margin-left: 210px;
     border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.5s linear;
 }
 
-.link--round {
-    border-radius: 20px;
+.link--red {
+    background-image: linear-gradient(to left, #fe3f3f, #ff6af3);
+    box-shadow: 0 0 10px 5px rgba(255, 106, 243, 0.8);
+}
+
+.link--red:hover {
+    background-image: linear-gradient(to right, #fe3f3f, #ff6af3);
+    color: black;
+}
+
+.link--green {
+    background-image: linear-gradient(to left, #34fb38, #f9ff47);
+    box-shadow: 0 0 10px 5px rgba(249, 255, 71, 0.8);
+}
+
+.link--green:hover {
+    background-image: linear-gradient(to right, #34fb38, #f9ff47);
+    color: black;
+}
+
+.link--blue {
+    background-image: linear-gradient(to left, #3729f5, #6afaff);
+    box-shadow: 0 0 10px 5px rgba(106, 250, 255, 0.8);
+}
+
+.link--blue:hover {
+    background-image: linear-gradient(to right, #3729f5, #6afaff);
+    color: black;
 }
