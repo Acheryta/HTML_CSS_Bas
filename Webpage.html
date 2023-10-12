@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./Web_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d167a2bf09.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header>
+            <p class="item"><i class="fa-solid fa-phone" style="color: #D10024;"></i> 0945326590</p>
+            <p class="item"><i class="fa-regular fa-envelope" style="color: #D10024;"></i> huaphucdangst123@gmail.com
+            </p>
+            <p class="item"><i class="fa-solid fa-location-dot" style="color: #D10024;"></i> KHTN - Linh Trung - Thủ Đức
+            </p>
+            <div class="dropdown_user">
+                <div class="user"><i class="fa-regular fa-user" style="color: #D10024;"></i> Tài Khoản</div>
+                <ul class="dropdown_list">
+                    <li class="dropdown_item">
+                        <span class="dropdown_text">Cài đặt</span>
+                        <i class="fa-solid fa-gear"></i>
+                    </li>
+                    <li class="dropdown_item">
+                        <span class="dropdown_text">Hỗ trợ</span>
+                        <i class="fa-solid fa-circle-info"></i>
+                    </li>
+                    <li class="dropdown_item">
+                        <span class="dropdown_text">Đăng xuất</span>
+                        <i class="fa-solid fa-power-off"></i>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="intro">
+            <a href="" class="logo">
+                <img src="img/1.png" alt="" class="image_logo">
+            </a>
+            <a href="https://www.fontspace.com/category/cursive" class="shop_title"><img
+                    src="https://see.fontimg.com/api/renderfont4/YzBn4/eyJyIjoiZnMiLCJoIjo4OCwidyI6MTAwMCwiZnMiOjg4LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Qm9va1N0b3Jl/honeybee-personal-use-regular.png"
+                    alt="Cursive fonts"></a>
+            <div class="searchboxContainer">
+                <input type="text" placeholder="Tìm kiếm" class="search">
+                <button class="search_button">Tìm kiếm</button>
+            </div>
+            <div class="shopping">
+                <div class="cart" onclick="toggle()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="text">Giỏ Hàng</span>
+                    <div class="qty">3</div>
+                    <div class="cart_dropdown">
+                        <div class="cartlist">
+                            <div class="product-widget">
+                                <div class="product-image"><img src="./img/2.png" alt=""></div>
+                                <div class="product-body">
+                                    <h3 class="product-name">
+                                        <a href="">Sản phẩm này là 1 sản phẩm chất lượng cao quá là cao
+                                            hahahahhahahahhaha</a>
+                                    </h3>
+                                    <h4 class="product-price">
+                                        <span class="qty">3x</span>
+                                        90.000 VND
+                                    </h4>
+                                </div>
+                                <button class="delete">
+                                    <i class="fa fa-close"></i>
+                                </button>
+                            </div>
+                            <div class="product-widget">
+                                <div class="product-image"><img src="./img/2.png" alt=""></div>
+                                <div class="product-body">
+                                    <h3 class="product-name">
+                                        <a href="">Sản phẩm này là 1 sản phẩm chất lượng cao</a>
+                                    </h3>
+                                    <h4 class="product-price">
+                                        <span class="qty">3x</span>
+                                        90.000 VND
+                                    </h4>
+                                </div>
+                                <button class="delete">
+                                    <i class="fa fa-close"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cartsumary">
+                            <small class="">Tổng số lượng: 6</small>
+                            <h5 class="">Thành tiền: 540.000 VND</h5>
+                        </div>
+                        <div class="cart_btns">
+                            <a href="#" class="">Xem Hàng</a>
+                            <a href="#" class="">Thanh Toán
+                                <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wishlist">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="text">Yêu Thích</span>
+                    <div class="qty">2</div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <a href="" class="item">Trang Chủ</a>
+            <a href="" class="item">Nổi Bật</a>
+            <a href="" class="item">Thể Loại</a>
+            <a href="" class="item">Sách Tiếng Việt</a>
+            <a href="" class="item">Sách Tiếng Anh</a>
+        </div>
+        <div class="border_menu"></div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <div class="shop">
+                        <div class="shop-img">
+                            <img src="./img/1.png" alt="">
+                        </div>
+                        <div class="shop-body">
+                            <h3>Tiểu<br>Thuyết</h3>
+                            <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col1">
+                    <div class="shop">
+                        <div class="shop-img">
+                            <img src="./img/1.png" alt="">
+                        </div>
+                        <div class="shop-body">
+                            <h3>Kinh<br>Doanh</h3>
+                            <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col1">
+                    <div class="shop">
+                        <div class="shop-img">
+                            <img src="./img/1.png" alt="">
+                        </div>
+                        <div class="shop-body">
+                            <h3>Cuộc<br>Sống</h3>
+                            <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col2">
+                    <div class="section-title">
+                        <h3 class="title">Sản Phẩm Mới</h3>
+                        <div class="section-nav">
+                            <ul class="section-tab-nav tab-nav">
+                                <li class="active"><a data-toggle="tab" href="#tab1" aria-expanded="true">Tiếng Việt</a>
+                                </li>
+                                <li class=""><a data-toggle="tab" href="#tab1" aria-expanded="false">Tiếng Anh</a>
+                                </li>
+                                <li class=""><a data-toggle="tab" href="#tab1" aria-expanded="false">Nước Ngoài</a>
+                                </li>
+                                <li class=""><a data-toggle="tab" href="#tab1" aria-expanded="false">Trong Nước</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="product-tab">
+                    <div id="tab1" class="tab-pane active">
+                        <div class="product-slider">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="./img/1.png" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h3 class="title">Đây là sản phẩm 1</h3>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
+                                        add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="./img/2.png" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h3 class="title">Đây là sản phẩm 2</h3>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
+                                        add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="./img/3.png" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h3 class="title">Đây là sản phẩm 3</h3>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
+                                        add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="./img/4.png" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h3 class="title">Đây là sản phẩm 4</h3>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
+                                        add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="./img/2.png" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h3 class="title">Đây là sản phẩm 5</h3>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
+                                        add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="./img/4.png" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h3 class="title">Đây là sản phẩm 6</h3>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
+                                        add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="./img/3.png" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h3 class="title">Đây là sản phẩm 7</h3>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
+                                        add to cart</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="./img/1.png" alt="">
+                                </div>
+                                <div class="product-body">
+                                    <h3 class="title">Đây là sản phẩm 8</h3>
+                                </div>
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
+                                        add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
