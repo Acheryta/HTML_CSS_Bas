@@ -15,7 +15,6 @@
 
 <body>
     <div id="wrapper">
-
         <header>
             <p class="item"><i class="fa-solid fa-phone" style="color: #D10024;"></i> 0945326590</p>
             <p class="item"><i class="fa-regular fa-envelope" style="color: #D10024;"></i> huaphucdangst123@gmail.com
@@ -110,172 +109,626 @@
             </div>
         </div>
         <div id="menu">
-            <a href="" class="item">Trang Chủ</a>
-            <a href="" class="item">Nổi Bật</a>
-            <a href="" class="item">Thể Loại</a>
-            <a href="" class="item">Sách Tiếng Việt</a>
-            <a href="" class="item">Sách Tiếng Anh</a>
+            <ul class="section-menu">
+                <li menu-tab-target="#main" class="active">
+                    <a data-toggle="tab" href="#main" aria-expanded="true">Trang Chủ</a>
+                </li>
+                <li menu-tab-target="#prominent">
+                    <a data-toggle="tab" href="#prominent" aria-expanded="false">Nổi Bật</a>
+                </li>
+                <li menu-tab-target="#category">
+                    <a data-toggle="tab" href="#category" aria-expanded="false">Thể Loại</a>
+                </li>
+                <li menu-tab-target="#foreign">
+                    <a data-toggle="tab" href="#foreign" aria-expanded="false">Sách Tiếng Việt</a>
+                </li>
+                <li menu-tab-target="#domestic">
+                    <a data-toggle="tab" href="#domestic" aria-expanded="false">Sách Tiếng Anh</a>
+                </li>
+            </ul>
         </div>
         <div class="border_menu"></div>
     </div>
-    <div class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col1">
-                    <div class="shop">
-                        <div class="shop-img">
-                            <img src="./img/1.png" alt="">
-                        </div>
-                        <div class="shop-body">
-                            <h3>Tiểu<br>Thuyết</h3>
-                            <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col1">
-                    <div class="shop">
-                        <div class="shop-img">
-                            <img src="./img/1.png" alt="">
-                        </div>
-                        <div class="shop-body">
-                            <h3>Kinh<br>Doanh</h3>
-                            <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+    <div id="main" menu-tab-content class="active">
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <div class="shop">
+                            <div class="shop-img">
+                                <img src="./img/1.png" alt="">
+                            </div>
+                            <div class="shop-body">
+                                <h3>Tiểu<br>Thuyết</h3>
+                                <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col1">
-                    <div class="shop">
-                        <div class="shop-img">
-                            <img src="./img/1.png" alt="">
+                    <div class="col1">
+                        <div class="shop">
+                            <div class="shop-img">
+                                <img src="./img/1.png" alt="">
+                            </div>
+                            <div class="shop-body">
+                                <h3>Kinh<br>Doanh</h3>
+                                <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
                         </div>
-                        <div class="shop-body">
-                            <h3>Cuộc<br>Sống</h3>
-                            <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <div class="col1">
+                        <div class="shop">
+                            <div class="shop-img">
+                                <img src="./img/1.png" alt="">
+                            </div>
+                            <div class="shop-body">
+                                <h3>Cuộc<br>Sống</h3>
+                                <a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="section">
-        <div class="container">
-            <div class="row">
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col2">
+                        <div class="section-title">
+                            <h3 class="title">Sản Phẩm Mới</h3>
+                            <div class="section-nav">
+                                <ul class="section-tab-nav tab-nav">
+                                    <li data-tab-target="#tab1" class="active"><a data-toggle="tab" href="#tab1"
+                                            aria-expanded="true">Tiếng Việt</a>
+                                    </li>
+                                    <li data-tab-target="#tab2" class=""><a data-toggle="tab" href="#tab2"
+                                            aria-expanded="false">Tiếng Anh</a>
+                                    </li>
+                                    <li data-tab-target="#tab1" class=""><a data-toggle="tab" href="#tab1"
+                                            aria-expanded="false">Nước Ngoài</a>
+                                    </li>
+                                    <li data-tab-target="#tab2" class=""><a data-toggle="tab" href="#tab2"
+                                            aria-expanded="false">Trong Nước</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col2">
-                    <div class="section-title">
-                        <h3 class="title">Sản Phẩm Mới</h3>
-                        <div class="section-nav">
-                            <ul class="section-tab-nav tab-nav">
-                                <li class="active"><a data-toggle="tab" href="#tab1" aria-expanded="true">Tiếng Việt</a>
-                                </li>
-                                <li class=""><a data-toggle="tab" href="#tab1" aria-expanded="false">Tiếng Anh</a>
-                                </li>
-                                <li class=""><a data-toggle="tab" href="#tab1" aria-expanded="false">Nước Ngoài</a>
-                                </li>
-                                <li class=""><a data-toggle="tab" href="#tab1" aria-expanded="false">Trong Nước</a>
-                                </li>
-                            </ul>
+                    <div class="product-tab">
+                        <div id="tab1" data-tab-content class="tab-pane active">
+                            <div class="product-slider">
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/1.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 1</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/2.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 2</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/3.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 3</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/4.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 4</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/2.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 5</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/4.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 6</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/3.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 7</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/1.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 8</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col2">
-                <div class="product-tab">
-                    <div id="tab1" class="tab-pane active">
-                        <div class="product-slider">
-                            <div class="product-item">
-                                <div class="product-image">
-                                    <img src="./img/1.png" alt="">
+                        <div id="tab2" data-tab-content>
+                            <div class="product-slider">
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/5.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 1</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
                                 </div>
-                                <div class="product-body">
-                                    <h3 class="title">Đây là sản phẩm 1</h3>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/6.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 2</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
                                 </div>
-                                <div class="add-to-cart">
-                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
-                                        add to cart</button>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/3.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 3</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-image">
-                                    <img src="./img/2.png" alt="">
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/4.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 4</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
                                 </div>
-                                <div class="product-body">
-                                    <h3 class="title">Đây là sản phẩm 2</h3>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/6.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 5</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
                                 </div>
-                                <div class="add-to-cart">
-                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
-                                        add to cart</button>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/4.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 6</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-image">
-                                    <img src="./img/3.png" alt="">
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/3.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 7</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
                                 </div>
-                                <div class="product-body">
-                                    <h3 class="title">Đây là sản phẩm 3</h3>
-                                </div>
-                                <div class="add-to-cart">
-                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
-                                        add to cart</button>
-                                </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-image">
-                                    <img src="./img/4.png" alt="">
-                                </div>
-                                <div class="product-body">
-                                    <h3 class="title">Đây là sản phẩm 4</h3>
-                                </div>
-                                <div class="add-to-cart">
-                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
-                                        add to cart</button>
-                                </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-image">
-                                    <img src="./img/2.png" alt="">
-                                </div>
-                                <div class="product-body">
-                                    <h3 class="title">Đây là sản phẩm 5</h3>
-                                </div>
-                                <div class="add-to-cart">
-                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
-                                        add to cart</button>
-                                </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-image">
-                                    <img src="./img/4.png" alt="">
-                                </div>
-                                <div class="product-body">
-                                    <h3 class="title">Đây là sản phẩm 6</h3>
-                                </div>
-                                <div class="add-to-cart">
-                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
-                                        add to cart</button>
-                                </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-image">
-                                    <img src="./img/3.png" alt="">
-                                </div>
-                                <div class="product-body">
-                                    <h3 class="title">Đây là sản phẩm 7</h3>
-                                </div>
-                                <div class="add-to-cart">
-                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
-                                        add to cart</button>
-                                </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-image">
-                                    <img src="./img/1.png" alt="">
-                                </div>
-                                <div class="product-body">
-                                    <h3 class="title">Đây là sản phẩm 8</h3>
-                                </div>
-                                <div class="add-to-cart">
-                                    <button class="add-to-cart-btn" tabindex="-1"><i class="fa fa-shopping-cart"></i>
-                                        add to cart</button>
+                                <div class="product-item">
+                                    <div class="product-image">
+                                        <img src="./img/5.png" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="title">Đây là sản phẩm 8</h3>
+                                        <h4 class="product-price">230.00VNĐ <del
+                                                class="product-old-price">490.000VNĐ</del>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist" tabindex="-1"><i
+                                                    class="fa fa-heart-o"></i><span class="tooltipp">thêm yêu
+                                                    thích</span></button>
+                                            <button class="add-to-compare" tabindex="-1"><i
+                                                    class="fa fa-exchange"></i><span class="tooltipp">so
+                                                    sánh</span></button>
+                                            <button class="quick-view" tabindex="-1"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">xem nhanh</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn" tabindex="-1"><i
+                                                class="fa fa-shopping-cart"></i>
+                                            add to cart</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -284,6 +737,19 @@
             </div>
         </div>
     </div>
+    <div id="prominent" menu-tab-content>
+        <h1>prominent Nothing Here</h1>
+    </div>
+    <div id="category" menu-tab-content>
+        <h1>category Nothing Here</h1>
+    </div>
+    <div id="foreign" menu-tab-content>
+        <h1>foreign Nothing Here</h1>
+    </div>
+    <div id="domestic" menu-tab-content>
+        <h1>domestic Nothing Here</h1>
+    </div>
+
     </div>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
